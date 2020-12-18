@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+
+}
+body{
+  background-color: #F5D3A7;
+}
+
+header{
+
+  background-color: #EA7870;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#text-header{
+ font-family: 'Acme', sans-serif;
+ color: white;
+ font-size: 25px;
+
+
+}
+#h1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  padding: 20px;
+}
+
+
+#lista-casos{
+
+  background-color:#AC6A66;
+  height: 800px;
+
+  padding: 15px;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.p-casos{
+  font-size: 30px;
+
+ font-family: 'Yanone Kaffeesatz', sans-serif;
+ margin: 10px;
+ padding: 2px;
+ color: white;
+ border: solid;
+ border-radius: 20px;
+ width: 150px;
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+
+}
+a {
+  text-decoration:none;
+  color: white;
+}

@@ -1,0 +1,63 @@
+
+h1{
+font-family: 'Oswald', sans-serif;
+}
+#container{
+
+   background-color: #F7F7D8;
+
+   width: 50%;
+   height: 400px;
+
+   display: flex;
+   align-items:flex-start;
+
+}
+
+#box1{
+  background-color: #BA3434;
+
+  height: 200px;
+  width: 100px;
+  margin: 10px;
+
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+#box2{
+  background-color: #C17FEA;
+
+  height: 50px;
+  width: 100px;
+  margin: 10px;
+
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+#box3{
+  background-color: #F6A31C;
+
+  height: 250px;
+  width: 100px;
+  margin: 10px;
+
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+#box4{
+  background-color: #F9F06B;
+
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
