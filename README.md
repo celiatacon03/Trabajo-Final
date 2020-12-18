@@ -26,6 +26,7 @@ En este caso he utilizado el siguiente código de flex box:
      #container{
          display: flex;
          justify-content: space-around;
+}
 ~~~
 Al aplicar este código de Flex Box conseguimos que los elementos que contiene el `div` se distribuyan horizontalmente de manera que quede un espacio igual entre ellos.
 
@@ -35,6 +36,7 @@ En este caso he utilizado el siguiente código de flex box:
     #container{
         display: flex;
         justify-content: space-between;
+}
 ~~~
 Al aplicar este código de Flex Box conseguimos que los elementos que contiene el `div` se distribuyan horizontalmente de manera que quede un espacio igual entre ellos, pero esta vez aprovechan todo el espacio horizontal del `div`.
 
@@ -44,6 +46,7 @@ En este caso he utilizado el siguiente código de flex box:
     #container{
         display: flex;
         align-items: center;
+}
 ~~~
 Al aplicar este código de Flex Box conseguimos que los elementos que contiene el `div` se coloquen en el centro respetando en el centro de estos una línea invisible que coincide con el medio del `div`.
 
@@ -53,6 +56,7 @@ En este caso he utilizado el siguiente código de flex box:
     #container{
         display: flex;
         align-items: flex-start;
+}
 ~~~
 Al aplicar este código de Flex Box conseguimos que los elementos que contiene el `div` se alineen al principio del `div`.
 
@@ -62,6 +66,7 @@ En este caso he utilizado el siguiente código de flex box:
      #container{
          display: flex;
          align-items: stretch;
+}
 ~~~
 Al aplicar este código de Flex Box conseguimos que los elementos que contiene el `div` ocupen el espacio del `div` verticalmente. La anchura la conservará.
 
@@ -71,6 +76,7 @@ En este caso he utilizado el siguiente código de flex box:
        #container{
            display: flex;
            align-items: flex-end;
+}
 ~~~
 Al aplicar este código de Flex Box conseguimos que los elementos que contiene el `div` se alineen al final del `div`.
 
@@ -81,6 +87,7 @@ En este caso he utilizado el siguiente código de flex box:
         display: flex;
 	      flex-wrap: wrap;
         align-content: space-around;
+}
 ~~~
 Al aplicar el código `flex-wrap: wrap;` conseguimos que los elementos que contiene el `div` se coloquen en varias líneas hacia abajo según no vayan cabiendo horizontalmente, y con el código `align-content: space-around;` conseguimos que los elementos se alineen dejando un mismo espacio entre ellos.
 
@@ -92,6 +99,7 @@ En este caso he utilizado el siguiente código de flex box:
        display: flex;
 	     flex-wrap: wrap;
        align-content: space-between;
+}
 ~~~
 Al aplicar el código `flex-wrap: wrap;` conseguimos que los elementos que contiene el `div` se coloquen en varias líneas hacia abajo según no vayan cabiendo horizontalmente, y con el código `align-content: space-between;` conseguimos que la primera línea que se genera de elementos se coloca al principio del `div` y la última línea al final de este, creándose un espacio uniforme entre las líneas.
 
@@ -103,6 +111,7 @@ En este caso he utilizado el siguiente código de flex box:
       display: flex;
 	    flex-wrap: wrap;
       align-content: stretch;
+}
 ~~~
 Al aplicar el código `flex-wrap: wrap;` conseguimos que los elementos que contiene el `div` se coloquen en varias líneas hacia abajo según no vayan cabiendo horizontalmente, y con el código `align-content: stretch;` conseguimos que los elementos se expandan verticalmente ocupando el espacio entre las líneas.
 
@@ -114,6 +123,7 @@ En este caso he utilizado el siguiente código de flex box:
      display: flex;
 	   flex-wrap: wrap;
      align-content: center;
+}
 ~~~
 Al aplicar el código `flex-wrap: wrap;` conseguimos que los elementos que contiene el `div` se coloquen en varias líneas hacia abajo según no vayan cabiendo horizontalmente, y con el código `align-content: center;` conseguimos que todas las líneas se coloquen en el centro del `div`.
 
@@ -124,6 +134,7 @@ En este caso he utilizado el siguiente código de flex box:
      display: flex;
 	   flex-wrap: wrap;
      align-content: flex-start;
+}
 ~~~
 Al aplicar el código `flex-wrap: wrap;` conseguimos que los elementos que contiene el `div` se coloquen en varias líneas hacia abajo según no vayan cabiendo horizontalmente, y con el código `align-content: flex-start;` conseguimos que todas las líneas se coloquen al principio `div`.
 
@@ -135,6 +146,7 @@ En este caso he utilizado el siguiente código de flex box:
         display: flex;
 	      flex-wrap: wrap;
         align-content: flex-end;
+}
 ~~~
 Al aplicar el código `flex-wrap: wrap;` conseguimos que los elementos que contiene el `div` se coloquen en varias líneas hacia abajo según no vayan cabiendo horizontalmente, y con el código `align-content: flex-start;` conseguimos que todas las líneas se coloquen al final `div`.
 
@@ -144,6 +156,7 @@ En este caso he utilizado el siguiente código de flex box en el `div` donde est
      #container{
          display: flex;
          align-items: stretch;
+}
 ~~~
 Y este otro para cada una de las cajas:
 ~~~
@@ -159,5 +172,6 @@ En este caso he utilizado el siguiente código de flex box:
    #container{
        display: flex;
        flex-wrap: nowrap;
+}
 ~~~
 Al aplicar el código `flex-wrap: nowrap;` conseguimos que los elementos que contiene el `div` se acomoden en una sola línea y no se desplacen hacia abajo.
